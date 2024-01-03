@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="author" content="Morar Ioan">
+  <meta name="keywords" content="Moonlight Lounge, Moonlight, Lounge, bar">
+  <meta name="description"
+    content="Discover a captivating blend of crafted cocktails, live music, and unforgettable moments at Moonlight Lounge, where every night is a celebration!">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Nova+Square&display=swap" rel="stylesheet">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>
+    Moonlight Lounge
+  </title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+
+</head>
+<style>
+  nav {
+    background-color: beige;
+  }
+
+  .intro {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+  }
+
+  .intro p {
+    font-family: 'Nova Square', sans-serif;
+    font-size: 16pt;
+    color: aliceblue;
+    margin: 20px 40px 0 20px;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .intro img {
+    width: 400px;
+    margin-right: 40px;
+  }
+
+  .sectiune-centrata {
+    text-align: center;
+    padding: 10px 200px;
+  }
+
+  .sectiune-centrata img {
+    border-radius: 60%;
+    width: 80px;
+  }
+
+  .sectiune-centrata p {
+    font-family: 'Nova Square', sans-serif;
+    font-size: 18pt;
+    color: aliceblue;
+  }
+
+  body {
+    background-color: darkslategrey;
+    margin: 0;
+  }
+
+  .center-h3 {
+    text-align: center;
+
+  }
+
+  .icon {
+    text-align: center;
+    padding-top: 40px;
+  }
+
+  .row {
+    display: flex;
+  }
+
+  .column {
+    width: 33.3%;
+
+  }
+
+  .section p {
+    font-family: 'Nova Square', sans-serif;
+    font-size: 14pt;
+    color: aliceblue;
+    text-align: justify;
+    text-justify: inter-word;
+  }
+
+  .section img {
+    width: 100%;
+  }
+
+  .section-center {
+    text-align: center;
+  }
+
+  .section-center p {
+    font-family: 'Nova Square', sans-serif;
+    font-size: 14pt;
+    color: aliceblue;
+    text-align: center;
+  }
+
+  .section-center img {
+    width: 50px;
+  }
+
+  footer {
+    background-color: beige;
+  }
+
+  footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .footer-title {
+    font-family: 'Nova Square', sans-serif;
+    font-size: 15pt;
+    padding-top: 1px;
+
+  }
+
+  .apps {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .apps img {
+    width: 70px;
+    padding: 0px 20px;
+  }
+</style>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01"
+          aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="index.html">
+            <img src="poze boots/cocktail.png" alt="logo with cocktail">
+
+          </a>
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Home">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Services">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#Menu">Menu</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="false">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="4"
+          aria-label="Slide 5"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="poze boots/alcohol-alcoholic3.jpg" class="d-block w-100" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="poze boots/alcohol-ale.jpg" class="d-block w-100" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="poze boots/alcohol-bottles.jpg" class="d-block w-100" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="poze boots/alcohol.jpg" class="d-block w-100" alt="">
+        </div>
+
+        <div class="carousel-item">
+          <img src="poze boots/tot_alcoolul.jpg" class="d-block w-100" alt="">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </header>
+  <h2> Home </h2>
+  </div>
+  </header>
+  <div id="Home">
+
+
+    <div class="intro">
+      <div class="intro-info">
+        <h3>Let's drink! </h3>
+        <p> Welcome to Moonlight Lounge in Cluj-Napoca, where sophistication meets intimate allure. As the sun sets, our
+          modern venue offers crafted cocktails, curated playlists, and live performances for a uniquely memorable
+          evening. Join us for a touch of magic under the moonlight at Moonlight Lounge. Cheers! </p>
+      </div>
+      <img src="poze boots/prieteni.jpg" alt="friends drinking">
+    </div>
+
+    <div class="intro">
+      <img src="poze boots/drinks.jpg" alt="4 cocktails">
+      <div class="intro-info">
+        <h3>What's waiting for YOU! </h3>
+        <p> What sets the Moonlight Lounge apart is its carefully crafted cocktail menu. Talented mixologists at the
+          helm create concoctions that are both innovative and classic, catering to a diverse range of palates. Whether
+          you're a fan of timeless classics like a perfectly shaken martini or prefer to venture into the realm of
+          signature, handcrafted specialties, the Moonlight Lounge has something for everyone.
+        </p>
+      </div>
+    </div>
+    <div class="icon">
+      <img src="poze boots/testimonial.png" alt="icon testimonial">
+    </div>
+
+    <div class="center-h3">
+      <h3>
+        What others think of our Lounge
+      </h3>
+    </div>
+    <div class="sectiune-centrata">
+      <p>
+        "Moonlight Lounge is my artistic refuge. The vibe, the cocktails, and the live music weave a spell that fuels my
+        creativity. It's more than a bar—it's where my art finds its rhythm. Big cheers to Moonlight Lounge for being my
+        creative muse."
+      </p>
+      <img src="poze boots/baiat frumos.jpg" alt="portrait of a man">
+      <p>
+        Michael Rackson - Artist
+      </p>
+    </div>
+  </div>
+
+  <div id="Services">
+    <h2>Services</h2>
+    <div class="intro">
+      <p>
+        Immerse yourself in unforgettable moments at Moonlight Lounge. Our events promise an exquisite blend of live
+        entertainment, expertly crafted drinks, and a captivating atmosphere. Join us for a unique experience that
+        transcends the ordinary—where every night is a celebration. Come for the ambiance, stay for the memories.
+        Elevate your evenings at Moonlight Lounge.
+      </p>
+    </div>
+    <div class="row row-cols-1 row-cols-md-3 g-4">
+      <div class="col">
+        <div class="card h-100">
+          <img src="poze boots/mix cocktail.jpg" class="card-img-top" alt="3 cocktail glasses with liquid being poured into them">
+          <div class="card-body">
+            <h5 class="card-title">Cocktail Tasting Events</h5>
+            <p class="card-text">Showcase the expertise of the mixologists by hosting cocktail tasting events. Introduce
+              patrons to new flavors, techniques, and perhaps unveil exclusive creations for a sophisticated and
+              educational evening.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="poze boots/lumea bea bere.jpg" class="card-img-top" alt="2 women and 2 men drinking beer">
+          <div class="card-body">
+            <h5 class="card-title">Live Music Nights</h5>
+            <p class="card-text">Embrace the lounge's intimate ambiance with regular live music nights. Feature local
+              bands, solo artists, or even themed music events to create a captivating atmosphere for patrons.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <img src="poze boots/alcohol2.jpg" class="card-img-top" alt="whiskey glasses with alcohol inside of them">
+          <div class="card-body">
+            <h5 class="card-title">Whiskey Tasting</h5>
+            <p class="card-text">Elevate the appreciation of spirits by organizing exclusive whiskey tasting events at
+              Moonlight Lounge. Partner with distilleries or whiskey experts to guide patrons through a curated
+              selection of premium whiskies.</p>
+          </div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="card h-100">
+          <div class="card-header">
+            Featured
+          </div>
+          <div class="card-body">
+            <h5 class="card-title">Reservations</h5>
+            <p class="card-text">Secure your spot for an enchanting evening at Moonlight Lounge by reserving a table
+              today, where exceptional experiences are crafted just for you.</p>
+            <a class="btn btn-outline-dark" href="https://www.iabilet.ro/" role="button">Reserve now!</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  <div id="Menu">
+    <h2>Menu</h2>
+  </div>
+  <div class="row">
+    <div class="column">
+      <div class="section">
+        <h3>Coffee</h3>
+        <img src="poze boots/cafea.jpg" alt="person making coffee">
+        <p>A comforting embrace of rich, aromatic bliss to kickstart your day or evening.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="section">
+        <h3>Lemonade</h3>
+        <img src="poze boots/limonada.jpg" alt="orange limonade">
+        <p>A burst of citrusy freshness to invigorate your senses.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="section">
+        <h3>Champagne</h3>
+        <img src="poze boots/sampanie.jpg" alt="champagne glasses">
+        <p>Elevate any occasion with the effervescence and sophistication of champagne. Here's to celebrating life's
+          moments in style!</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="section">
+        <h3>Aperol</h3>
+        <img src="poze boots/aperol.jpg" alt="cocktail glass with aperol in it">
+        <p>Embrace the vibrant hues and bittersweet notes of this classic aperitif.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="section">
+        <h3>Tequila</h3>
+        <img src="poze boots/tequila.jpg" alt="shot glass with tequila">
+        <p>Sip on the spirit of Mexico with the bold and distinctive flavors of tequila.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="section">
+        <h3>Gin</h3>
+        <img src="poze boots/gin.jpg" alt="cocktail glass with gin in it">
+        <p>Immerse yourself in the botanical symphony of our carefully crafted gin cocktails.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="row">
+    <div class="column">
+      <div class="section">
+        <h3>Beer</h3>
+        <img src="poze boots/bere.jpg" alt="beer poured from bottle to glass">
+        <p>From crisp lagers to hoppy IPAs, discover a refreshing range to suit every palate.</p>
+
+      </div>
+    </div>
+    <div class="column">
+      <div class="section">
+        <h3>Wine</h3>
+        <img src="poze boots/vin.jpg" alt="wine glass with wine in it">
+        <p>Explore our curated selection of wines, each bottle telling a story of vineyards and craftsmanship.</p>
+      </div>
+    </div>
+    <div class="column">
+      <div class="section">
+        <h3>Whiskey</h3>
+        <img src="poze boots/whiskey.jpg" alt="whiskey glasses with whiskey">
+        <p>Warm your soul with the smooth, complex character of our fine whiskies.</p>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <footer>
+    <div class="footer-title">
+      <p> Moonlight Lounge</p>
+      <p>0744833164</p>
+    </div>
+    <div class="apps">
+      <a href="https://www.instagram.com/" target="_blank"><img src="poze boots/instagram.png" alt="icon with instagram logo"></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="poze boots/facebook-app-symbol.png"
+          alt="icon with facebook logo"></a>
+      <a href="https://www.whatsapp.com" target="_blank"><img src="poze boots/whatsapp.png" alt="icon with whatsapp logo"></a>
+    </div>
+    <p>Copyright © 2023 Moonlight Lounge. All rights reserved.</p>
+  </footer>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
